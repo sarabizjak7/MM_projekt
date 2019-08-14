@@ -1,0 +1,1 @@
+function risi(x_otrok, y_otrok)    hold on;    t = linspace(0, 10, 100);    x = x_otrok(t);    y = y_otrok(t);    plot(x, y, 'k');    for i=0:0.1:10        x = x_otrok(i);        y = y_otrok(i);        tocka = plot(x, y, 'b');        pause(0.1);        delete(tocka)    end    hold off;        

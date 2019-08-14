@@ -1,0 +1,1 @@
+function [t, P] = igraca(o, do)    % VHODNI PODATKI : otrok    % P je polozaj igrače    N1 = @(t) norm(do(t));    % zapis diferencialne enacbe    odefun = @(t,P) (N1(t) / norm(o(t) - P)) .* (o(t) - P);    [t, P] = ode45(odefun, [0 10], [0; 0]);

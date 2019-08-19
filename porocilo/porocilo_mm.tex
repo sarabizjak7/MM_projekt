@@ -1,0 +1,314 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[slovene]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{enumitem}
+
+
+
+\begin{document}
+
+
+%%% naslovna stran
+
+\begin{titlepage}
+    \centering
+    \vfill
+    \vfill
+    \textbf{\Huge{Poročilo projekta}}
+    \vfill
+    \textbf{\LARGE{Matematično modeliranje}}
+    \vfill\vfill\vfill\vfill\vfill
+    \textsc{\Large{Sara Bizjak}}
+    \vfill\vfill
+    \textsc{\large{Univerza v Ljubljani}}
+    
+    \textsc{\large{Fakulteta za matematiko in fiziko}}
+    
+    \textsc{\large{Oddelek za matematiko}}
+    \vfill\vfill
+        
+    \large{Avgust 2019}
+    
+    \end{titlepage}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{\textsc{\large{Predstavitev problema}}}
+
+
+Rešujemo problem otroka, ki se sprehaja po ravnem igrišču na mivki, za seboj pa vleče na 
+vrvico privezano igračo tako, da je vrvica vseskozi napeta. Otrokovo gibanje opišemo s 
+parametrično krivuljo. Program izračuna sled gibanja igrače po mivki in izriše animacijo.
+\\
+Poznamo parametrizacijo krivulje, po kateri se giba otrok. Ker je vrvica med otrokom in 
+igračo vedno napeta, vemo, da imata v vsakem trenutku isto hitrost, oz. sta vedno enako 
+oddaljena. Igrača se vedno giba v smeri otroka. 
+Torej poznamo smer in velikost hitrosti igrače, njene pozicije oz. krivuljo gibanja pa 
+dobimo kot rešitev diferencialne enačbe.
+
+\section{\textsc{\large{Reševanje navadnih diferencialnih enačb TODO}}}
+
+Ponovimo osnove pri reševanju diferencialnih enačb. \\
+Denimo, da rešujemo začetni problem 
+
+\begin{displaymath}
+y'(x) = f(x), \quad y(x_{0}) = y_{0}.
+\end{displaymath}
+Če je diferencialna enačba višjega reda, jo prevedemo na sistem enačb prvega reda. \\
+Za rešitev diferencialne enačbe lahko v Matlabu uporabimo že vgrajeno funkcijo 
+ode45:
+
+\begin{displaymath}
+[X, Y] = ode45(odefun, [x0, b], y0)
+\end{displaymath}
+
+\section{\textsc{\large{Rešitev problema}}}
+
+Z $x(t)$ in $y(y)$ je označena parametrizacija otroka, z $x_i(t)$ in $y_i(t)$ pa igrače. Odvodi so označeni kot $dx(t), \ dy(t), \ dx_i(t)$ in $dy_i(t)$. \\
+Poznamo parametrizacijo otroka, torej $x(t)$ in $y(t)$. Vemo, da vektor hitrosti igrače kaže v smeri proti otroku (po vrvici).
+Torej velja
+
+\begin{align*}
+    dx_i(t) = x(t) - x_i(t) \\
+    dy_i(t) = y(t) - y_i(t).
+\end{align*}
+Vemo tudi, da sta hitrost otroka in hotrost igrače po velikosti enaki, torej velja
+\begin{align*}
+    \|(dx_i(t), dy_i(t))\| = \|(dx(t), dy(y))\|.
+\end{align*}
+Ker poznamo smer igrače in velikost hitrosti, lahko ugotovimo njeno parametrizacijo oziroma gibanje.
+Vektor smeri normiramo in ga pomnožimo z normo hitrosti otroka, saj se velikosti hitrosti ujemata.
+\\
+\begin{align}
+     \Big(
+    \begin{bmatrix} 
+        x(t) \\
+        y(t)
+    \end{bmatrix}
+    -
+    \begin{bmatrix} 
+        x_i(t) \\
+        y_i(t) 
+    \end{bmatrix}
+    \Big)
+    \ \cdot \
+    \frac{
+    \Big \|
+    \begin{bmatrix} 
+        dx(t) \\
+        dy(t)
+    \end{bmatrix}
+    \Big \|
+    }
+    {
+    \Big \|
+    \begin{bmatrix} 
+        x(t) \\
+        y(t)
+    \end{bmatrix}
+    -
+    \begin{bmatrix} 
+        x_i(t) \\
+        y_i(t) 
+    \end{bmatrix}
+    \Big \|
+    }
+\end{align}
+\\
+\\
+Da ohranjamo razdaljo oz. napeto vrvico med otrokom in igračo, račun (1) pomnožimo še 
+s kotom med hitrostjo otroka in daljico, ki povezuje igračo in otroka. 
+Velikost kota dobimo s skalarnim produktom, in sicer
+
+\begin{align}
+    \varphi = 
+    \frac{
+    \begin{bmatrix} 
+        dx(t), \ %
+        dy(t)
+    \end{bmatrix}
+    \cdot
+    \begin{bmatrix} 
+        x(t) - x_i(t) \\
+        y(t) - y_i(t)
+    \end{bmatrix}
+    }
+    {
+    \Big \|
+    \begin{bmatrix} 
+        dx(t) \\
+        dy(t)
+    \end{bmatrix}
+    \Big \| 
+    \cdot
+    \Big \|
+    \begin{bmatrix} 
+        x(t) - x_i(t) \\
+        y(t) - y_i(t)
+    \end{bmatrix}
+    \Big \| 
+    }
+    .
+\end{align}
+\\
+\\
+Če pomnožimo (1) in (2) dobimo sistem \\
+\begin{align}
+    \begin{bmatrix} 
+        dx_i(t) \\
+        dy_i(t) 
+    \end{bmatrix}
+    =
+    \frac{
+    \begin{bmatrix} 
+        x(t) - x_i(t) \\
+        y(t) - y_i(t)
+    \end{bmatrix}
+    \cdot
+    \Big(
+    \begin{bmatrix} 
+        dx(t), \ %
+        dy(t)
+    \end{bmatrix}
+    \cdot
+    \begin{bmatrix} 
+        x(t) - x_i(t) \\
+        y(t) - y_i(t)
+    \end{bmatrix}
+    \Big)
+    }
+    {
+    \Big \|
+    \begin{bmatrix} 
+        x(t) - x_i(t) \\
+        y(t) - y_i(t)
+    \end{bmatrix}
+    \Big \| ^ {2}
+    }
+    .
+\end{align}
+\\
+\\
+Sistem (3) sovpada s funkcijo, ki jo ustavimo v Matlabovo vgrajeno funkcijo za reševanje diferencialnih enačb 
+\textbf{ode45}.
+\\
+\\
+\begin{align*}
+    odefun = @(t,\ P) 
+    \
+    \frac{
+        \begin{bmatrix} 
+            x(t) - x_i(t) \\
+            y(t) - y_i(t)
+        \end{bmatrix}
+        \cdot
+        \Big(
+        \begin{bmatrix} 
+            dx(t), \ %
+            dy(t)
+        \end{bmatrix}
+        \cdot
+        \begin{bmatrix} 
+            x(t) - x_i(t) \\
+            y(t) - y_i(t)
+        \end{bmatrix}
+        \Big)
+        }
+        {
+        \Big \|
+        \begin{bmatrix} 
+            x(t) - x_i(t) \\
+            y(t) - y_i(t)
+        \end{bmatrix}
+        \Big \| ^ {2}
+        },
+\end{align*}
+
+\begin{align*}
+    kjer \ P = 
+        \begin{bmatrix} 
+            x_i(t) \\
+            y_i(t)
+        \end{bmatrix}
+    .
+    \\
+\end{align*}
+Pri reševanju je predpostavljeno, da je vrvica dolga toliko, kot je začetna oddaljenost igrače in otroka. 
+Igrača svoje gibanje vedno začne v koordinatnem izhodišču, torej v točki (0, 0), kar je tudi začetni pogoj pri reševanju nastavljene diferencialne enačbe.
+
+
+\section{\textsc{\large{Primeri}}}
+
+Poglejmo si nekaj primerov gibanja. Modra barva krivulje označuje gibanje otroka, rdeča pa igrače.
+
+\begin{itemize}
+    \item Gibanje otroka po krivulji s parametrizacijo:
+    \begin{center}
+    $x(t) = cos(t)$, \\
+    $y(t) = sin(t)$. 
+    \end{center}
+    Če se otrok premika v krogu, igrača pa je na začetku v središču kroga (torej je vrvica dolga enako kot radij - predpostavka), ostane igrača ves čas na istem mestu.
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[scale=0.4]{Primer1}
+    \end{figure}
+
+    \newpage
+    \item Gibanje otroka po krivulji s parametrizacijo:
+    \begin{center}
+    $x(t) = t + cos(t)$, \\
+    $y(t) = t + sin(t)$. 
+    \end{center}      
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[scale=0.4]{Primer2}
+    \end{figure}
+
+    \item Gibanje otroka po krivulji s parametrizacijo:
+    \begin{center}
+    $x(t) = t + cos(t)$, \\
+    $y(t) = t - sin(t)$. 
+    \end{center}      
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[scale=0.4]{Primer3}
+    \end{figure}
+    
+    \newpage
+    \item Gibanje otroka po krivulji s parametrizacijo:
+    \begin{center}
+    $x(t) = t + cos(t) + sin(t)$, \\
+    $y(t) = t + sin(t) - cos(t)$. 
+    \end{center}      
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[scale=0.4]{Primer4}
+    \end{figure}
+    
+    \item Gibanje otroka po krivulji s parametrizacijo:
+    \begin{center}
+    $x(t) = t + cos(t) - sin(t)$, \\
+    $y(t) = t + sin(t) + cos(t)$. 
+    \end{center}      
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[scale=0.4]{Primer5}
+    \end{figure}
+
+\end{itemize}
+
+
+
+\end{document}

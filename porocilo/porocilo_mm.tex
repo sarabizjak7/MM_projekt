@@ -45,37 +45,49 @@
 
 \newpage
 
-\section{\textsc{\large{Predstavitev problema}}}
-
+\section{\textsc{\large{PREDSTAVITEV PROBLEMA}}}
 
 Rešujemo problem otroka, ki se sprehaja po ravnem igrišču na mivki, za seboj pa vleče na 
 vrvico privezano igračo tako, da je vrvica vseskozi napeta. Otrokovo gibanje opišemo s 
 parametrično krivuljo. Program izračuna sled gibanja igrače po mivki in izriše animacijo.
 \\
+
+\section{\textsc{\large{MATEMATIČNO OZADJE}}}
+
+Rešujemo primer naloge, kjer gibanje igrače določimo z rešitvijo diferencialne enačbe. \\
+Ker lahko za rešitev diferencialne enačbe v Matlabu uporabimo že vgrajeno funkcijo {\texttt{ode45}}, bomo reševanje diferencialnih enačb izpustili. 
+Ponovimo samo nekaj osnovnih pojmov.
+\\
+Ker imamo podatek o hitrosti, rešujemo DE prvega reda.
+\\
+\\
+Enačbi, v kateri nastopa neznana funkcija in njen odvod, pravimo \textbf{diferencialna enačba prvega reda}. 
+Najsplošnejša oblika diferencialne enačbe prvega reda je
+\begin{displaymath}
+F(x, y, dy) = 0,
+\end{displaymath}
+kjer je \textit{F} dana funkcija treh spremenljiv, $y = y(x)$ pa je neznana funkcija.
+Smiselno je zahtevati, da je definicijsko območje neznane funkcije odprt interval,
+sicer imamo težave z računanjem njenih odvodov.
+Pogosto lahko iz $F(x, y, dy) = 0$ izrazimo $dy$ kot dunkcijo $x$ in $y$. V tem primeru pravimo,
+da smo diferencialno enačbo prevedli na \textbf{standardno obliko}.
+\\
+\\
+Vgrajena Matlabova funkcija za reševanje diferencialnih enačb izgleda takole:
+\begin{displaymath}
+[X, Y] = ode45(odefun, [x0, b], y0)
+\end{displaymath}
+
+\newpage
+\section{\textsc{\large{REŠITEV PROBLEMA}}}
+
 Poznamo parametrizacijo krivulje, po kateri se giba otrok. Ker je vrvica med otrokom in 
 igračo vedno napeta, vemo, da imata v vsakem trenutku isto hitrost, oz. sta vedno enako 
 oddaljena. Igrača se vedno giba v smeri otroka. 
 Torej poznamo smer in velikost hitrosti igrače, njene pozicije oz. krivuljo gibanja pa 
 dobimo kot rešitev diferencialne enačbe.
-
-\section{\textsc{\large{Reševanje navadnih diferencialnih enačb TODO}}}
-
-Ponovimo osnove pri reševanju diferencialnih enačb. \\
-Denimo, da rešujemo začetni problem 
-
-\begin{displaymath}
-y'(x) = f(x), \quad y(x_{0}) = y_{0}.
-\end{displaymath}
-Če je diferencialna enačba višjega reda, jo prevedemo na sistem enačb prvega reda. \\
-Za rešitev diferencialne enačbe lahko v Matlabu uporabimo že vgrajeno funkcijo 
-ode45:
-
-\begin{displaymath}
-[X, Y] = ode45(odefun, [x0, b], y0)
-\end{displaymath}
-
-\section{\textsc{\large{Rešitev problema}}}
-
+\\
+\\
 Z $x(t)$ in $y(y)$ je označena parametrizacija otroka, z $x_i(t)$ in $y_i(t)$ pa igrače. Odvodi so označeni kot $dx(t), \ dy(t), \ dx_i(t)$ in $dy_i(t)$. \\
 Poznamo parametrizacijo otroka, torej $x(t)$ in $y(t)$. Vemo, da vektor hitrosti igrače kaže v smeri proti otroku (po vrvici).
 Torej velja
@@ -84,9 +96,9 @@ Torej velja
     dx_i(t) = x(t) - x_i(t) \\
     dy_i(t) = y(t) - y_i(t).
 \end{align*}
-Vemo tudi, da sta hitrost otroka in hotrost igrače po velikosti enaki, torej velja
+Vemo tudi, da sta hitrost otroka in hitrost igrače po velikosti enaki, torej velja
 \begin{align*}
-    \|(dx_i(t), dy_i(t))\| = \|(dx(t), dy(y))\|.
+    \|(dx_i(t), dy_i(t))\| = \|(dx(t), dy(t))\|.
 \end{align*}
 Ker poznamo smer igrače in velikost hitrosti, lahko ugotovimo njeno parametrizacijo oziroma gibanje.
 Vektor smeri normiramo in ga pomnožimo z normo hitrosti otroka, saj se velikosti hitrosti ujemata.
@@ -202,7 +214,7 @@ Velikost kota dobimo s skalarnim produktom, in sicer
 \\
 \\
 Sistem (3) sovpada s funkcijo, ki jo ustavimo v Matlabovo vgrajeno funkcijo za reševanje diferencialnih enačb 
-\textbf{ode45}.
+{\texttt{ode45}}.
 \\
 \\
 \begin{align*}
@@ -248,25 +260,36 @@ Sistem (3) sovpada s funkcijo, ki jo ustavimo v Matlabovo vgrajeno funkcijo za r
 Pri reševanju je predpostavljeno, da je vrvica dolga toliko, kot je začetna oddaljenost igrače in otroka. 
 Igrača svoje gibanje vedno začne v koordinatnem izhodišču, torej v točki (0, 0), kar je tudi začetni pogoj pri reševanju nastavljene diferencialne enačbe.
 
+\subsection{\textsc{Matlabove datoteke}}
 
-\section{\textsc{\large{Primeri}}}
+Rešitev diferencialne enačbe izračunamo s funkcijo v datoteki {\texttt{igraca.m}}. Datoteki {\texttt{risi\_otrok.m}} in {\texttt{risi\_igraca.m}} izriseta krivuljo, 
+po kateri se gibata otrok oziroma igrača, ti dve funkciji pa kličemo v {\texttt{animacija.m}}, ki gibanje s pomočjo premikajoče se pikice še izrišeta. 
+Vse skupaj poženemo z datoteko {\texttt{test.m}}, kjer je tudi določena parametrizacija krivulje, po kateri se giba otrok in izračunan odvod.
+
+\newpage
+\section{\textsc{\large{PRIMERI GIBANJA}}}
 
 Poglejmo si nekaj primerov gibanja. Modra barva krivulje označuje gibanje otroka, rdeča pa igrače.
 
-\begin{itemize}
-    \item Gibanje otroka po krivulji s parametrizacijo:
+\subsection{\textsc{Primer 1}}
+    
+     Gibanje otroka po krivulji s parametrizacijo:
     \begin{center}
     $x(t) = cos(t)$, \\
     $y(t) = sin(t)$. 
     \end{center}
     Če se otrok premika v krogu, igrača pa je na začetku v središču kroga (torej je vrvica dolga enako kot radij - predpostavka), ostane igrača ves čas na istem mestu.
+    \\
+    \\
     \begin{figure}[!h]
         \centering
         \includegraphics[scale=0.4]{Primer1}
     \end{figure}
 
     \newpage
-    \item Gibanje otroka po krivulji s parametrizacijo:
+   
+    \subsection{\textsc{Primer 2}}
+     Gibanje otroka po krivulji s parametrizacijo:
     \begin{center}
     $x(t) = t + cos(t)$, \\
     $y(t) = t + sin(t)$. 
@@ -276,7 +299,8 @@ Poglejmo si nekaj primerov gibanja. Modra barva krivulje označuje gibanje otrok
         \includegraphics[scale=0.4]{Primer2}
     \end{figure}
 
-    \item Gibanje otroka po krivulji s parametrizacijo:
+    \subsection{\textsc{Primer 3}}
+    Gibanje otroka po krivulji s parametrizacijo:
     \begin{center}
     $x(t) = t + cos(t)$, \\
     $y(t) = t - sin(t)$. 
@@ -287,7 +311,8 @@ Poglejmo si nekaj primerov gibanja. Modra barva krivulje označuje gibanje otrok
     \end{figure}
     
     \newpage
-    \item Gibanje otroka po krivulji s parametrizacijo:
+    \subsection{\textsc{Primer 4}}
+    Gibanje otroka po krivulji s parametrizacijo:
     \begin{center}
     $x(t) = t + cos(t) + sin(t)$, \\
     $y(t) = t + sin(t) - cos(t)$. 
@@ -297,7 +322,8 @@ Poglejmo si nekaj primerov gibanja. Modra barva krivulje označuje gibanje otrok
         \includegraphics[scale=0.4]{Primer4}
     \end{figure}
     
-    \item Gibanje otroka po krivulji s parametrizacijo:
+    \subsection{\textsc{Primer 5}}
+    Gibanje otroka po krivulji s parametrizacijo:
     \begin{center}
     $x(t) = t + cos(t) - sin(t)$, \\
     $y(t) = t + sin(t) + cos(t)$. 
@@ -307,8 +333,16 @@ Poglejmo si nekaj primerov gibanja. Modra barva krivulje označuje gibanje otrok
         \includegraphics[scale=0.4]{Primer5}
     \end{figure}
 
-\end{itemize}
+\newpage
+
+\section{\textsc{\large{ZAKLJUČEK}}}
 
 
+\newpage	
+\begin{thebibliography}{99}
+	\bibitem{a} 
+	J Cimprič: Diferencialne enačbe, FMF, skripta, dostopno na https://www.fmf.uni-lj.si/~cimpric/skripta/del6.pdf.
+
+\end{thebibliography}
 
 \end{document}

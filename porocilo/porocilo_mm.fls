@@ -1,9 +1,9 @@
-PWD /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo
+PWD /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo
 INPUT /usr/local/texlive/2018/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/porocilo_mm.tex
-OUTPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/porocilo_mm.log
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.tex
+OUTPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.log
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/size12.clo
@@ -52,9 +52,9 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mhsetup.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mhsetup.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/porocilo_mm.aux
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/porocilo_mm.aux
-OUTPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/porocilo_mm.aux
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.aux
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.aux
+OUTPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.aux
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
@@ -101,14 +101,13 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
-OUTPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/porocilo_mm.pdf
+OUTPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.pdf
 INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/porocilo_mm.toc
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/porocilo_mm.toc
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.toc
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.toc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
-OUTPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/porocilo_mm.toc
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm
@@ -137,28 +136,31 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer1.png
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer1.png
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer1.png
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer2.png
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer2.png
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer2.png
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer3.png
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer3.png
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer3.png
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer4.png
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer4.png
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer4.png
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer5.png
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer5.png
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer5.png
-INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/porocilo_mm.aux
+OUTPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.toc
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmtt12.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmri12.tfm
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer1.png
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer1.png
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer1.png
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer2.png
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer2.png
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer2.png
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer3.png
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer3.png
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer3.png
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer4.png
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer4.png
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer4.png
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer5.png
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer5.png
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer5.png
+INPUT /Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.aux
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb
@@ -167,5 +169,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi12.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi8.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri12.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy8.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt12.pfb

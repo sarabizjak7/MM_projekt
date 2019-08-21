@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.1)  19 AUG 2019 20:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.1)  21 AUG 2019 15:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/porocilo_mm.tex"
-(/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/porocilo_mm.tex
+**"/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.tex"
+(/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
@@ -193,7 +193,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@toks=\toks28
 \enit@inbox=\box28
 \enitdp@description=\count106
-) (/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/porocilo_mm.aux)
+) (/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.aux)
 \openout1 = `porocilo_mm.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -281,132 +281,158 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 \Gin@req@width=\dimen126
 ) [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/porocilo_mm.toc
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.toc
 
 LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
 (Font)              using `T1/lmr/bx/n' instead on input line 2.
 
-)
-\tf@toc=\write3
-\openout3 = `porocilo_mm.toc'.
-
- [1]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 66.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 66.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 5.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 66.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 5.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 66.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 5.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 66.
+(Font)              <12> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 66.
+(Font)              <8> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 66.
-LaTeX Font Info:    Try loading font information for U+msa on input line 66.
+(Font)              <6> on input line 5.
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 66.
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write3
+\openout3 = `porocilo_mm.toc'.
+
+ [1]
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
+
+ []
+
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 58.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 90--94
+Underfull \hbox (badness 10000) in paragraph at lines 57--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--77
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 128--134
+Underfull \hbox (badness 10000) in paragraph at lines 84--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--168
+Underfull \hbox (badness 10000) in paragraph at lines 102--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--168
+Underfull \hbox (badness 10000) in paragraph at lines 140--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--208
+Underfull \hbox (badness 10000) in paragraph at lines 176--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--208
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--208
+Underfull \hbox (badness 10000) in paragraph at lines 176--180
 
  []
 
 [3]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 257.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 257.
-<Primer1.png, id=25, 557.58313pt x 418.56375pt>
+Underfull \hbox (badness 10000) in paragraph at lines 213--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--220
+
+ []
+
+[4]
+<Primer1.png, id=29, 557.58313pt x 418.56375pt>
 File: Primer1.png Graphic file (type png)
 <use Primer1.png>
-Package pdftex.def Info: Primer1.png  used on input line 265.
+Package pdftex.def Info: Primer1.png  used on input line 286.
 (pdftex.def)             Requested size: 223.0293pt x 167.42252pt.
- [4 </Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer1.png>]
-<Primer2.png, id=31, 557.58313pt x 420.57124pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--288
+
+ []
+
+[5 </Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer1.png>]
+<Primer2.png, id=35, 557.58313pt x 420.57124pt>
 File: Primer2.png Graphic file (type png)
 <use Primer2.png>
-Package pdftex.def Info: Primer2.png  used on input line 276.
+Package pdftex.def Info: Primer2.png  used on input line 299.
 (pdftex.def)             Requested size: 223.0293pt x 168.22551pt.
-<Primer3.png, id=32, 555.07375pt x 419.5675pt>
+<Primer3.png, id=36, 555.07375pt x 419.5675pt>
 File: Primer3.png Graphic file (type png)
 <use Primer3.png>
-Package pdftex.def Info: Primer3.png  used on input line 286.
+Package pdftex.def Info: Primer3.png  used on input line 310.
 (pdftex.def)             Requested size: 222.02556pt x 167.82402pt.
- [5 </Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer2.png> </Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer3.png>]
-<Primer4.png, id=38, 557.08125pt x 418.56375pt>
+ [6 </Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer2.png> </Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer3.png>]
+<Primer4.png, id=43, 557.08125pt x 418.56375pt>
 File: Primer4.png Graphic file (type png)
 <use Primer4.png>
-Package pdftex.def Info: Primer4.png  used on input line 297.
+Package pdftex.def Info: Primer4.png  used on input line 322.
 (pdftex.def)             Requested size: 222.82855pt x 167.42252pt.
-<Primer5.png, id=39, 557.08125pt x 421.07312pt>
+<Primer5.png, id=44, 557.08125pt x 421.07312pt>
 File: Primer5.png Graphic file (type png)
 <use Primer5.png>
-Package pdftex.def Info: Primer5.png  used on input line 307.
+Package pdftex.def Info: Primer5.png  used on input line 333.
 (pdftex.def)             Requested size: 222.82855pt x 168.42625pt.
- [6 </Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer4.png> </Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/Primer5.png>] (/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/porocilo_mm.aux)
+ [7 </Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer4.png> </Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer5.png>] [8]
+Underfull \hbox (badness 3536) in paragraph at lines 344--345
+[]\T1/lmr/m/n/12 J Cim-pri�: Di-fe-ren-ci-alne ena�be, FMF, skripta, do-sto-pno na
+ []
+
+[9] (/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 4123 strings out of 492649
- 59798 string characters out of 6129623
- 137651 words of memory out of 5000000
- 7901 multiletter control sequences out of 15000+600000
- 49350 words of font info for 43 fonts, out of 8000000 for 9000
+ 4154 strings out of 492649
+ 60343 string characters out of 6129623
+ 136655 words of memory out of 5000000
+ 7930 multiletter control sequences out of 15000+600000
+ 53930 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,15n,30p,397b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/porocilo/porocilo_mm.pdf" (7 pages, 222041 bytes).
+ 55i,15n,30p,408b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.pdf" (10 pages, 257076 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 95 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

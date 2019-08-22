@@ -35,7 +35,7 @@
     \textsc{\large{Oddelek za matematiko}}
     \vfill\vfill
         
-    \large{Avgust 2019}
+    \large{avgust 2019}
     
     \end{titlepage}
 
@@ -66,22 +66,22 @@ Najsplošnejša oblika diferencialne enačbe prvega reda je
 \begin{displaymath}
 F(x, y, dy) = 0,
 \end{displaymath}
-kjer je \textit{F} dana funkcija treh spremenljiv, $y = y(x)$ pa je neznana funkcija.
+kjer je \textit{F} dana funkcija treh spremenljivk, $y = y(x)$ pa je neznana funkcija.
 Smiselno je zahtevati, da je definicijsko območje neznane funkcije odprt interval,
 sicer imamo težave z računanjem njenih odvodov.
-Pogosto lahko iz $F(x, y, dy) = 0$ izrazimo $dy$ kot dunkcijo $x$ in $y$. V tem primeru pravimo,
+Pogosto lahko iz $F(x, y, dy) = 0$ izrazimo $dy$ kot funkcijo $x$ in $y$. V tem primeru pravimo,
 da smo diferencialno enačbo prevedli na \textbf{standardno obliko}.
 \\
 \\
 Vgrajena Matlabova funkcija za reševanje diferencialnih enačb izgleda takole:
 \begin{displaymath}
-[X, Y] = ode45(odefun, [x0, b], y0)
+[X, Y] = ode45(odefun, [x0, b], y0).
 \end{displaymath}
 
 \newpage
 \section{\textsc{\large{REŠITEV PROBLEMA}}}
 
-Poznamo parametrizacijo krivulje, po kateri se giba otrok. Ker je vrvica med otrokom in 
+Poznamo parametrizacijo krivulje, po kateri se premika otrok. Ker je vrvica med otrokom in 
 igračo vedno napeta, vemo, da imata v vsakem trenutku isto hitrost, oz. sta vedno enako 
 oddaljena. Igrača se vedno giba v smeri otroka. 
 Torej poznamo smer in velikost hitrosti igrače, njene pozicije oz. krivuljo gibanja pa 
@@ -176,7 +176,7 @@ Velikost kota dobimo s skalarnim produktom, in sicer
 \end{align}
 \\
 \\
-Če pomnožimo (1) in (2) dobimo sistem \\
+Če pomnožimo (1) in (2), dobimo sistem \\
 \begin{align}
     \begin{bmatrix} 
         dx_i(t) \\
@@ -213,7 +213,7 @@ Velikost kota dobimo s skalarnim produktom, in sicer
 \end{align}
 \\
 \\
-Sistem (3) sovpada s funkcijo, ki jo ustavimo v Matlabovo vgrajeno funkcijo za reševanje diferencialnih enačb 
+Sistem (3) sovpada s funkcijo, ki jo vstavimo v Matlabovo vgrajeno funkcijo za reševanje diferencialnih enačb 
 {\texttt{ode45}}.
 \\
 \\
@@ -258,13 +258,14 @@ Sistem (3) sovpada s funkcijo, ki jo ustavimo v Matlabovo vgrajeno funkcijo za r
     \\
 \end{align*}
 Pri reševanju je predpostavljeno, da je vrvica dolga toliko, kot je začetna oddaljenost igrače in otroka. 
-Igrača svoje gibanje vedno začne v koordinatnem izhodišču, torej v točki (0, 0), kar je tudi začetni pogoj pri reševanju nastavljene diferencialne enačbe.
+Igrača svoje gibanje vedno začne v koordinatnem izhodišču, torej v točki (0, 0), kar je tudi nastavljen začetni pogoj pri reševanju diferencialne enačbe. 
+
 
 \subsection{\textsc{Matlabove datoteke}}
 
 Rešitev diferencialne enačbe izračunamo s funkcijo v datoteki {\texttt{igraca.m}}. Datoteki {\texttt{risi\_otrok.m}} in {\texttt{risi\_igraca.m}} izriseta krivuljo, 
-po kateri se gibata otrok oziroma igrača, ti dve funkciji pa kličemo v {\texttt{animacija.m}}, ki gibanje s pomočjo premikajoče se pikice še izrišeta. 
-Vse skupaj poženemo z datoteko {\texttt{test.m}}, kjer je tudi določena parametrizacija krivulje, po kateri se giba otrok in izračunan odvod.
+po kateri se gibata otrok oziroma igrača. Gibanje izrišemo s pomočjo {\texttt{animacija.m}}. 
+Vse skupaj poženemo z datoteko {\texttt{test.m}}, kjer sta določena parametrizacija krivulje, po kateri se giba otrok, in njen odvod.
 
 \newpage
 \section{\textsc{\large{PRIMERI GIBANJA}}}

@@ -82,10 +82,9 @@ Vgrajena Matlabova funkcija za reševanje diferencialnih enačb izgleda takole:
 \section{\textsc{\large{REŠITEV PROBLEMA}}}
 
 Poznamo parametrizacijo krivulje, po kateri se premika otrok. Ker je vrvica med otrokom in 
-igračo vedno napeta, vemo, da imata v vsakem trenutku isto hitrost, oz. sta vedno enako 
-oddaljena. Igrača se vedno giba v smeri otroka. 
-Torej poznamo smer in velikost hitrosti igrače, njene pozicije oz. krivuljo gibanja pa 
-dobimo kot rešitev diferencialne enačbe.
+igračo vedno napeta, vemo, da sta vedno enako oddaljena. Igrača se vedno giba v smeri otroka. 
+Poznamo smer igrače, velikost hitrosti pa je odvisna od kota med smerjo gibanja otroka in smerjo vrvice.
+Njene pozicije oz. krivuljo gibanja torej dobimo kot rešitev diferencialne enačbe.
 \\
 \\
 Z $x(t)$ in $y(y)$ je označena parametrizacija otroka, z $x_i(t)$ in $y_i(t)$ pa igrače. Odvodi so označeni kot $dx(t), \ dy(t), \ dx_i(t)$ in $dy_i(t)$. \\
@@ -94,14 +93,9 @@ Torej velja
 
 \begin{align*}
     dx_i(t) = x(t) - x_i(t) \\
-    dy_i(t) = y(t) - y_i(t).
+    dy_i(t) = y(t) - y_i(t). \\
 \end{align*}
-Vemo tudi, da sta hitrost otroka in hitrost igrače po velikosti enaki, torej velja
-\begin{align*}
-    \|(dx_i(t), dy_i(t))\| = \|(dx(t), dy(t))\|.
-\end{align*}
-Ker poznamo smer igrače in velikost hitrosti, lahko ugotovimo njeno parametrizacijo oziroma gibanje.
-Vektor smeri normiramo in ga pomnožimo z normo hitrosti otroka, saj se velikosti hitrosti ujemata.
+Vektor smeri normiramo in ga pomnožimo z normo hitrosti otroka.
 \\
 \begin{align}
      \Big(

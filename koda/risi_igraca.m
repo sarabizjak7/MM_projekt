@@ -1,6 +1,8 @@
 function risi_igraca(x_igraca, y_igraca)
-    % funkcija sprejme koordinate igrace
-    % nariše krivuljo, po kateri se giblje igraca
+% RISI_IGRACA narise krivuljo, po kateri se giblje igraca		
+%    		
+%   VHODNI PODATKI: 		
+%       x_iograca, y_igraca: koordinate igrace ob casih t
     
     hold on
 

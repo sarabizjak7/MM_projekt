@@ -1,14 +1,14 @@
 # Fdb version 3
-["pdflatex"] 1566913477 "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.tex" "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.pdf" "porocilo_mm" 1566913478
+["pdflatex"] 1566914551 "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.tex" "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.pdf" "porocilo_mm" 1566914552
   "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer1.png" 1566050479 51043 f9b2cf17d03d976e544682fd9ff01f1c ""
   "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer2.png" 1566050499 44662 357dbded9311cb916a50f5cab645a7c8 ""
   "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer3.png" 1566050512 44878 063987acb9ebb7b4ac582f7339c2c59b ""
   "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer4.png" 1566050529 43460 bc4a7d0ae34df8572414ab914a150863 ""
   "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer5.png" 1566050540 47642 9bd7dcdc4962ce194676d35dd82552d3 ""
   "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/Primer6.png" 1566562780 57971 6b4a39ba6762f781cf653d5014081bf5 ""
-  "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.aux" 1566913477 1231 aa7fd6a4225e48afc086cfc043505469 ""
-  "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.tex" 1566913476 8986 c1a4ad088efe79c1bfac03378e5674e5 ""
-  "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.toc" 1566913477 972 6133e09334001de225c35d8c3a4bb97f ""
+  "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.aux" 1566914552 1231 aa7fd6a4225e48afc086cfc043505469 ""
+  "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.tex" 1566914551 9022 b5e6de2fe9d320c602545ce43b068a29 ""
+  "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.toc" 1566914552 972 6133e09334001de225c35d8c3a4bb97f ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1480098668 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1480098668 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1480098668 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -37,6 +37,7 @@
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm" 1480098712 11888 6841b91e46b65cf41a49b160e6e74130 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmr6.tfm" 1480098712 11836 e3b6ce3e601aec94f64a536e7f4224d5 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmr8.tfm" 1480098712 11864 309fd7f43e4a0ba39f6f7644d76e8edf ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1480098734 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb" 1480098742 116908 1fca96723793882c2e0160350c192fc8 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb" 1480098742 116427 4a5b1ccaa7cce719091920a86b58608d ""
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmex10.pfb" 1480098742 23055 2e5b42921de910eaa97b85df04ca4891 ""
@@ -103,6 +104,6 @@
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
   (generated)
   "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.aux"
+  "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.pdf"
   "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.log"
   "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.toc"
-  "/Users/sarabizjak/Documents/FMF MAT dodiplomski/FMF 3. letnik/Matematično modeliranje/MM_projekt/porocilo/porocilo_mm.pdf"
